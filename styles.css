@@ -11,8 +11,7 @@ body{
 	margin: 0px auto;
 }
 .choice-holder1{
-	background-image: url('images/logo1.png');
-	background-position: center;
+		background-position: center;
 	background-repeat: no-repeat;
 	height: 130px;
 	width: 500px;
@@ -21,7 +20,7 @@ body{
 	
 }
 .choice-holder2{
-	background-image: url('images/logo2.png');
+	
 	background-position:center;
 	background-repeat: no-repeat;
 	height: 130px;

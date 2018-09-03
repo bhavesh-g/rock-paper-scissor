@@ -1,8 +1,11 @@
 $("#play").click(function(event) {
+
 	/* Act on the event */
-	$("#resultline").text('FIRST TO SCORE 10 POINTS, WILL WIN.');
+	$("#resultline").text('FIRST TO SCORE 10 POINTS, WILL WIN.Now START!');
 	
-	
+	$(window).load(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+});
 
 });
 var rock=0;
@@ -19,6 +22,8 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
 }
 $("#rock").click(function(event) {
+	$("#computer").text('');
+	$("#player").text('');
 	/* Act on the event */
 	$("#player").css('backgroundImage', "url('images/rock.gif')");
 	rock=rock+1;
@@ -53,6 +58,8 @@ $("#rock").click(function(event) {
 });
 
 $("#paper").click(function(event) {
+	$("#computer").text('');
+	$("#player").text('');
 	/* Act on the event */
 	$("#player").css('backgroundImage', "url('images/paper.gif')");
 $("#youchose").text('You chose PAPER');
@@ -91,6 +98,8 @@ $("#youchose").text('You chose PAPER');
 });
 
 $("#scissor").click(function(event) {
+	$("#computer").text('');
+	$("#player").text('');
 	/* Act on the event */
 	$("#player").css('backgroundImage', "url('images/scissor.gif')");
 	$("#youchose").text('You chose SCISSOR');
