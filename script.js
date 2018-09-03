@@ -1,6 +1,6 @@
 $("#play").click(function(event) {
 	/* Act on the event */
-	$("#resultline").html('First to 10 points will win');
+	$("#resultline").text('FIRST TO SCORE 10 POINTS, WILL WIN.');
 	$("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
 
 });
