@@ -1,0 +1,32 @@
+body{
+	background-color: red;
+}
+.fit{
+	margin: 0px auto;
+}
+.choice-holder1{
+	background-image: url('images/logo1.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 130px;
+	width: 500px;
+	
+	
+	
+}
+.choice-holder2{
+	background-image: url('images/logo2.png');
+	background-position:center;
+	background-repeat: no-repeat;
+	height: 130px;
+	width: 500px;
+	
+
+	
+}
+#compscore{
+	color: red;
+}
+#playerscore{
+	color: limegreen;
+}
