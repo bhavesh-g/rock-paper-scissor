@@ -22,7 +22,7 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
 }
 $("#rock").click(function(event) {
-	window.navigator.vibrate(25);
+	window.navigator.vibrate(10);
 	$("#computer").text('');
 	$("#player").text('');
 	/* Act on the event */
@@ -59,7 +59,7 @@ $("#rock").click(function(event) {
 });
 
 $("#paper").click(function(event) {
-	window.navigator.vibrate(25);
+	window.navigator.vibrate(10);
 	$("#computer").text('');
 	$("#player").text('');
 	/* Act on the event */
@@ -101,7 +101,7 @@ $("#youchose").text('You chose PAPER');
 
 $("#scissor").click(function(event) {
 	
-	window.navigator.vibrate(25);
+	window.navigator.vibrate(10);
 	$("#computer").text('');
 	$("#player").text('');
 	/* Act on the event */
