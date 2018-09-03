@@ -1,6 +1,6 @@
-@media only screen and (max-width: 1200px) {
-    body{
-    	font-size: 20px;
+@media only screen and (max-width: 900px) {
+    p{
+    	font-size:80px;
     }
     #computer{
     	height: 500px;
