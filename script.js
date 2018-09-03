@@ -1,7 +1,8 @@
 $("#play").click(function(event) {
 	/* Act on the event */
 	$("#resultline").text('FIRST TO SCORE 10 POINTS, WILL WIN.');
-	$("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+	
+	
 
 });
 function getRandomInt(min, max) {
