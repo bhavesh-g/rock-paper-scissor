@@ -1,6 +1,7 @@
 $("#play").click(function(event) {
 	/* Act on the event */
-	$("#resultline").html('<h6>First to 10 points will win</h6>');
+	$("#resultline").html('First to 10 points will win');
+	$("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
 
 });
 function getRandomInt(min, max) {
